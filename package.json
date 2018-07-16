@@ -2,8 +2,12 @@
   "name": "webpack-demo",
   "version": "1.0.0",
   "description": "A project to study webpack",
+  "private": true,
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
