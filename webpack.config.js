@@ -16,5 +16,7 @@ module.exports = {
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
-  }
+  },
+  // 也可以在命令行接口中使用 --optimize-minimize
+  mode: "production"
 }

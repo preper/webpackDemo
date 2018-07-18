@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A project to study webpack",
   "private": true,
+  "sideEffects": [
+    "*.css"
+  ],
   "dependencies": {
     "lodash": "^4.17.10"
   },
