@@ -1,4 +1,3 @@
-import _ from 'lodash'
 import print from './print'
 
 function component() {
@@ -7,7 +6,7 @@ function component() {
   var br = document.createElement('br')
 
   button.innerHTML = 'Click me'
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ')
+  element.innerHTML = join(['Hello', 'webpack'], ' ')
   element.appendChild(br)
   element.appendChild(button)
 
